@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Figtree', sans-serif;
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.desing {
+    margin-bottom: 20px;
+}
+
+.desing h1 {
+    color: #fff;
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.desing p {
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.eth, .dat {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.eth img {
+    width: 15px;
+    height: 20px;
+}
+
+.dat img {
+    width: 20px;
+    height: 20px;
+}
+
+.eth h2 {
+    color: hsl(178, 100%, 50%);
+    font-size: 17px;
+}
+
+.dat p {
+    color:  hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.fim {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    border-top: 2px solid hsl(215, 32%, 27%);
+    padding: 10px 0;
+}
+
+.fim img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.fim p {
+    color:hsl(215, 51%, 70%);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.fim a {
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+}
+
+.fim a:hover {
+    color: #c5ad81;
+}
+
